@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(ocean-3605547_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+/* .header css*/
+
+.header {
+background-color: rgba(12, 8, 71, 0.463);
+display: flex;
+height: 110px;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+top: 0;
+}
+
+.header .title h1 {
+    color: rgb(223, 255, 245);
+}
+.header .title h1 span {
+    color: rgb(255, 57, 57);
+}
+.header .nav ul li {
+    list-style-type: none;
+}
+.header .nav ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+    /* font-family: "Franklin Gothic Medium", "Arial Narr"*/
+}
+.header .nav ul li a:hover {
+color: rgb(255, 255, 255);
+cursor: pointer;    
+}
+/*header bitiş*/
+
+/*ana içerik başlangıç css*/
+
+.main {
+    height: 50vh;
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.main .info {
+    height: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.main .info h1 {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.main .info p {
+    color: rgb(209, 194, 222);
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.main .info p b {
+    color: rgb(7, 7, 98);
+    text-transform: capitalize;
+    /* text-transform: uppercase;*/
+}
+.main .info button {
+    border: none;
+    background-color: rgb(124, 5, 5);
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .info button:hover {
+   
+    background-color: rgb(255, 72, 72);
+}
+/* ana içerik bitiş*/
+
+/*table alanı*/
+.table-container {
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    max-width: 700px;
+}
+.table-container table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 8px;
+    border: 1px solid rgb(209, 199, 199);
+}
+th {
+    background-color: rgb(255, 137, 251);
+}
+/*table alanı*/
+
+/*form alanı css başlangıç*/
+.form-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid rgb(229, 225, 225);
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+label {
+    font-weight: bold;
+}
+#ad,
+#email,
+textarea {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid rgb(104, 30, 30);
+    border-radius: 5px;
+}
+.btn {
+    background-color: rgb(13, 13, 61);
+    color: rgb(235, 232, 232);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(92, 92, 155);
+}
+/*form alanı css bitiş*/
+
+/*footer alanı başlangıç*/
+.footer {
+    background-color: blueviolet;
+    color: bisque;
+    height: 110px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*footer alanıbitiş*/
+
+/* media sorgusu*/
+/*s@media (max-width:800px) {
+    .header.nav {
+        display: :none;
+    }
+}
+    /* .header {
+        background-color: aqua;
+    }*/
